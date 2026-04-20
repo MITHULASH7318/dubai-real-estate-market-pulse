@@ -3,10 +3,6 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from pathlib import Path
-import os
-import subprocess
-
-subprocess.run(["pip", "install", "plotly"])
 
 st.set_page_config(
     page_title="Dubai Real Estate Market Pulse",

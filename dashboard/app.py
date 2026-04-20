@@ -4,7 +4,14 @@ import plotly.express as px
 from pathlib import Path
 import os
 
-# ── DEBUG (optional, can remove later) ──
+# ✅ MUST BE FIRST STREAMLIT COMMAND
+st.set_page_config(
+    page_title="Dubai Real Estate Market Pulse",
+    page_icon="🏙️",
+    layout="wide",
+)
+
+# DEBUG (can be after config)
 st.write("Current working dir:", os.getcwd())
 st.write("Files:", os.listdir())
 

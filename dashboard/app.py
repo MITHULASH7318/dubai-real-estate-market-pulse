@@ -1,5 +1,3 @@
-import pkg_resources
-st.write([pkg.key for pkg in pkg_resources.working_set])
 import streamlit as st
 import pandas as pd
 import plotly.express as px
